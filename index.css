@@ -1,8 +1,35 @@
+:root {
+    box-sizing: border-box;
+    --main-bg-color: #2bceb5;
+}
+body {
+    background-color: var(--main-bg-color);
+}
+
+
+
 h1 {
     color: rgb(141, 7, 119);
     background-color: lightpink;
 }
 
 h4 {
-    color: lightgray;
+    color: darkorchid;
+    background-color: var(--main-bg-color);
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    height: 100px; 
+    width: 100px;
+    background-color: whitesmoke;
+    margin: 0 2%
+}
+
+.item-center {
+    background-color: tomato;
+    flex: 1;
 }
