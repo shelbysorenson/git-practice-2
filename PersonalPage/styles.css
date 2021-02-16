@@ -1,0 +1,104 @@
+body {
+    margin: 0px 20px;
+    background-color: rgb(224, 218, 211);
+    font-family: sans-serif;
+  }
+  
+  main {
+  width:  960px;
+    margin: 0 auto;
+  }
+  
+  .header-pic {
+    height: 90px;
+    margin-bottom: 1.5em;
+  }
+  
+  #bio {
+    display: flex;
+    width: auto;
+    height: 200px;
+    margin-bottom: 1.5em;
+  }
+  
+  #bio-choose {
+    width: 100%;
+    margin-left: 1em;
+  }
+  
+  #name-date {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  
+  .timeFormat {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: rgb(47,64,83);
+  }
+  
+  #choose-list {
+    background-color: rgb(165, 199, 107);
+    padding: 15px;
+  }
+  
+  ul {
+    margin: 0;
+    padding-left: 15px;
+  }
+  
+  h2, 
+  p {
+    margin: 0;
+  }
+  
+  h4 {
+    margin: 4px 0 9px 0;
+    color: rgb(0, 65, 33);
+  }
+  
+  #tech {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 200px;
+  }
+  
+  figure {
+    margin: 5px 0;
+    text-align: center;
+  }
+  
+  figure > img {
+    height: 150px;
+  }
+  
+  figcaption {
+    background-color: rgba(0, 0, 0, .5);
+    color: #ddd;
+    max-width: 150px;
+    text-align: center;
+    position: relative;
+    top: -20px;
+  }
+  
+  #interest {
+    width: auto;
+    height: 200px;
+  }
+  
+  #excited-about {
+    background-color: rgb(165, 199, 107);
+    padding: 10px 30px 30px 10px;
+    margin: 10px 0px 20px 0px;
+  }
+  
+  #excited-about > p {
+    color: #000000;
+  }
+  
+  .centered {
+    text-align: center;
+    color: rgb(47, 64, 83);
+  }
